@@ -2,7 +2,6 @@ from logging import Logger, Handler
 from typing import Optional
 
 from applipy import Module, Config, LoggingModule
-from applipy_inject import with_names
 from applipy_metrics import MetricsModule, MetricsRegistry
 from applipy_metrics.reporters import Reporter
 from applipy_metrics.reporters.newrelic_reporter import NewRelicReporter

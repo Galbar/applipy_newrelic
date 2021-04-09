@@ -5,6 +5,7 @@ from newrelic_telemetry_sdk import (
     LogClient,
 )
 
+
 class NewRelicLogHandler(Handler):
 
     _client: LogClient
