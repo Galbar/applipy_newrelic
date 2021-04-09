@@ -13,8 +13,6 @@ class NewRelicLogHandler(Handler):
     def __init__(self, client: LogClient) -> None:
         super().__init__()
         self._client = client
-        print('hello')
 
     def emit(self, record):
-        print('[NR-Logs] log sent')
         self._client.send(Log.from_record(record)).raise_for_status()
