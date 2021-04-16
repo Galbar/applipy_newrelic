@@ -40,6 +40,7 @@ setup(
     install_requires=[
         'applipy_metrics>=1.2.0,<2.0.0',
         'applipy_inject>=1.1.0,<2.0.0',
+        'applipy>=1.0.0',
         'newrelic-telemetry-sdk==0.4.2',
     ],
     scripts=[],
